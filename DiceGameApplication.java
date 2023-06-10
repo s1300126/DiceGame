@@ -19,7 +19,7 @@ class DiceGameApplication{
             System.out.println("Die " + (i+1) + ": " + a);
         }
         System.out.println("Total value: " + total);
-        if(total > 7)System.out.println("You won!");
-        else System.out.println("You lost!");
+        if(total > 7)System.out.println(s + " won!");
+        else System.out.println( s + " lost!");
     }
 }
